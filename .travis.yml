@@ -5,6 +5,8 @@ php:
   - 5.4
 
 before_script:
+  - pyrus channel-discover pear.symfony.com
+  - pyrus install --force phpunit/DbUnit
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar --dev install
 
