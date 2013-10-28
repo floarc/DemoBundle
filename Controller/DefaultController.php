@@ -1,6 +1,6 @@
 <?php
 
-namespace Zalas\Bundle\DemoBundle\Controller;
+namespace Floarc\Bundle\DemoBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;

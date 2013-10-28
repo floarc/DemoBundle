@@ -1,6 +1,6 @@
 <?php
 
-namespace Zalas\Bundle\DemoBundle\Tests\Controller;
+namespace Floarc\Bundle\DemoBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

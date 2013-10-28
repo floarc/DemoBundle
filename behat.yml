@@ -5,7 +5,7 @@ default:
     features: Features
     bootstrap: %behat.paths.features%/Context
   context:
-    class: Zalas\Bundle\DemoBundle\Features\Context\FeatureContext
+    class: Floarc\Bundle\DemoBundle\Features\Context\FeatureContext
   extensions:
     Behat\Symfony2Extension\Extension:
       mink_driver: true

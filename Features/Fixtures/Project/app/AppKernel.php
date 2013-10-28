@@ -15,7 +15,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\TwigBundle\TwigBundle(),
             new Symfony\Bundle\MonologBundle\MonologBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-            new Zalas\Bundle\DemoBundle\ZalasDemoBundle()
+            new Floarc\Bundle\DemoBundle\FloarcDemoBundle()
         );
     }
 
@@ -32,7 +32,7 @@ class AppKernel extends Kernel
      */
     public function getCacheDir()
     {
-        return sys_get_temp_dir().'/ZalasDemoBundle/cache';
+        return sys_get_temp_dir().'/FloarcDemoBundle/cache';
     }
 
     /**
@@ -40,6 +40,6 @@ class AppKernel extends Kernel
      */
     public function getLogDir()
     {
-        return sys_get_temp_dir().'/ZalasDemoBundle/logs';
+        return sys_get_temp_dir().'/FloarcDemoBundle/logs';
     }
 }

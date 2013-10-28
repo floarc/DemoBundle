@@ -16,7 +16,7 @@
         "symfony/monolog-bundle":       "*@stable"
     },
     "autoload": {
-        "psr-0": { "Zalas\\Bundle\\DemoBundle": "" }
+        "psr-0": { "Floarc\\Bundle\\DemoBundle": "" }
     },
-    "target-dir": "Zalas/Bundle/DemoBundle"
+    "target-dir": "Floarc/Bundle/DemoBundle"
 }
